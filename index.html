@@ -1,47 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="styles.css" rel="stylesheet">
-  <link href="menue.css" rel="stylesheet">
-  <script src="script.js" async></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="styles.css" rel="stylesheet">
+    <link href="menu.css" rel="stylesheet">
+    <script src="script.js" async></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-  <title>Mix-Or-Match</title>
+    <title>Mix-Or-Match</title>
 </head>
 <body>
-  <h1 class="page-title">Mix-Or-Match</h1>
+<h1 class="page-title">Mix-Or-Match</h1>
 
-  <div id="game-over-text" class="overlay-text">
+<div id="game-over-text" class="overlay-text">
     GAME OVER
     <span class="overlay-text-small">Click to Restart</span>
-  </div>
-  <div id="victory-text" class="overlay-text">
+</div>
+<div id="victory-text" class="overlay-text">
     VICTORY
     <span class="overlay-text-small">Click to Restart</span>
-  </div>
+</div>
 
 <div class="menu-container visible">
-  <div class="vertical-menu">
-    <a class="menuItem easy" >Leicht</a>
-    <a class="menuItem medium">Mittel</a>
-    <a class="menuItem hard">Schwierig</a>
-  </div>
-</div>
-  <div id="game-container" class="game-container">
-    <div class="game-info-container">
-      <div class="game-info">
-        Time <span id="time-remaining">100</span>
-      </div>
-      <div class="game-info">
-        Flips <span id="flips">0</span>
-      </div>
+    <div class="vertical-menu">
+        <a class="menuItem easy">Leicht</a>
+        <a class="menuItem medium">Mittel</a>
+        <a class="menuItem hard">Schwierig</a>
     </div>
+</div>
+<div id="game-container" class="game-container">
+    <div class="game-info-container">
+        <div class="game-info">
+            Time <span id="time-remaining">100</span>
+        </div>
+        <div class="game-info">
+            Flips <span id="flips">0</span>
+        </div>
+    </div>
+</div>
 
-
-  </div>
+<div>
+    <div class="back-button" onclick="location.reload()">Zurück</div>
+</div>
 
 </body>
 </html>

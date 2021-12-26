@@ -174,8 +174,10 @@ function ready() {
         menuItem.addEventListener('click', () => {
             document.getElementsByClassName('menu-container')[0].classList.remove('visible')
             $.getJSON("cards.json", (json) => {
-                console.log(json[menuItem.classList[1]])
+
                 initCards(json[menuItem.classList[1]])
+                document.getElementsByClassName('back-button')[0].classList.add('visible')
+                document.getElementsByClassName('game-info')[0].classList.add('visible')
                 cards.forEach(card => {
                     card.addEventListener('click', () => {
                         game.flipCard(card);
@@ -185,10 +187,9 @@ function ready() {
             game.startGame();
         });
     });
-
-
-
 }
+
+
 
 
 function initCards(cardArray) {

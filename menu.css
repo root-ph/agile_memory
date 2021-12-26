@@ -1,0 +1,44 @@
+.menu-container{
+    text-align: center;
+    display: none;
+}
+
+.vertical-menu {
+    width: 200px;
+    text-align: center;
+    margin:0 auto
+}
+
+.vertical-menu a:first-child {
+    border-radius: 6px 6px 0 0;
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:last-child {
+    border-radius: 0 0 6px 6px;
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none; /
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: lightgray;
+}
+
+.menu-container.visible{
+    display: flex;
+}

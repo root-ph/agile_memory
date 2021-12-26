@@ -24,8 +24,12 @@ body {
 
 .game-info-container {
   grid-column: 1 / -1;
-  display: flex;
+  display: none;
   justify-content: space-between;
+}
+
+.game-info-container.visible{
+  display: flex;
 }
 
 .game-info {
@@ -138,7 +142,7 @@ body {
 }
 
 .card-front {
-  background-color: #FFBB89;
+  background-color: #ffffff;
   border-color: #333;
   transform: rotateY(180deg);
 }
@@ -166,6 +170,26 @@ body {
 .overlay-text.visible {
   display: flex;
   animation: overlay-grow 500ms forwards;
+}
+
+.back-button{
+  width: 200px;
+  text-align: center;
+  border-radius: 6px;
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: none; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+  margin:0 auto
+}
+
+.back-button.visible{
+  display: block;
+}
+
+.back-button:hover {
+  background-color: lightgray;
 }
 
 
