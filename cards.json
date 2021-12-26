@@ -24,23 +24,33 @@
   "medium": [
     {
       "id": 1,
-      "text": "Agile Release Train",
-      "type": "art"
+      "text": "CI-Pipeline",
+      "type": "cip"
     },
     {
       "id": 2,
-      "text": "Langfristig bestehendes Team-of-Agile-Teams, welches mit anderen Beteiligten inkrementell Lösungen entwickelt und bereitstellt",
-      "type": "art"
+      "text": "• Develop - Build - Test (End-to-End) - Stage/Deploy",
+      "type": "cip"
     },
     {
       "id": 3,
-      "text": "Release Train Engineer",
-      "type": "rte"
+      "text": "Timebox eines Sprints",
+      "type": "tbs"
     },
     {
       "id": 4,
-      "text": "Coach für den Agile Release Train (ART), kümmert sich um die Prozesse, Events und die PI-Durchführung des ART",
-      "type": "rte"
+      "text": "Best-Practice: 2 Wochen",
+      "type": "tbs"
+    },
+    {
+      "id": 5,
+      "text": "Timebox eines Programm Inkrements",
+      "type": "tbp"
+    },
+    {
+      "id": 6,
+      "text": "Best-Practice: 10 Wochen",
+      "type": "tbp"
     }
   ],
   "hard": [
@@ -56,14 +66,23 @@
     },
     {
       "id": 3,
-      "text": "Release Train Engineer",
-      "type": "rte"
+      "text": "SAFe Core Values",
+      "type": "scv"
     },
     {
       "id": 4,
-      "text": "Coach für den Agile Release Train (ART), kümmert sich um die Prozesse, Events und die PI-Durchführung des ART",
-      "type": "rte"
+      "text": "Ausrichtung, Built-in Quality, Transparenz und Programmausführung",
+      "type": "scv"
+    },
+    {
+      "id": 5,
+      "text": "SAFe Mindset",
+      "type": "sfm"
+    },
+    {
+      "id": 6,
+      "text": "Beste Qualität und Mehrwert für Mensch und Gesellschaft",
+      "type": "sfm"
     }
   ]
-
 }
