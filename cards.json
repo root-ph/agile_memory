@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "text": "Agile Release Train",
+    "type": "art"
+  },
+  {
+    "id": 2,
+    "text": "Langfristig bestehendes Team-of-Agile-Teams, welches mit anderen Beteiligten inkrementell Lösungen entwickelt und bereitstellt",
+    "type": "art"
+  },
+  {
+    "id": 3,
+    "text": "Release Train Engineer",
+    "type": "rte"
+  },
+  {
+    "id": 4,
+    "text": "Coach für den Agile Release Train (ART), kümmert sich um die Prozesse, Events und die PI-Durchführung des ART",
+    "type": "rte"
+  }
+
+
+]
