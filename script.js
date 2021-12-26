@@ -35,8 +35,6 @@ class MixOrMatch {
     }
 
 
-
-
     startGame() {
         this.totalClicks = 0;
         this.timeRemaining = this.totalTime;
@@ -102,7 +100,7 @@ class MixOrMatch {
     }
 
     checkForCardMatch(card) {
-        console.log(this.getCardType(card)+" "+this.getCardType(this.cardToCheck))
+
         if (this.getCardType(card) === this.getCardType(this.cardToCheck))
             this.cardMatch(card, this.cardToCheck);
         else
@@ -139,7 +137,7 @@ class MixOrMatch {
     }
 
 
-    getCardType(card){
+    getCardType(card) {
         console.log(card)
         console.log(card.getElementsByClassName('card-front')[0].getAttribute('type'))
         return card.getElementsByClassName('card-front')[0].getAttribute('type')
@@ -159,9 +157,9 @@ if (document.readyState == 'loading') {
 }
 
 
-
 function ready() {
     let overlays = Array.from(document.getElementsByClassName('overlay-text'));
+    let menuItems = Array.from(document.getElementsByClassName('menuItem'))
     cards = Array.from(document.getElementsByClassName('card'));
     let game = new MixOrMatch(100, cards);
 
@@ -172,16 +170,26 @@ function ready() {
         });
     });
 
-    $.getJSON("cards.json", (json) => {
-        console.log(json)
-        initCards(json)
-        cards.forEach(card => {
-            card.addEventListener('click', () => {
-                game.flipCard(card);
-            });
+    menuItems.forEach(menuItem => {
+        menuItem.addEventListener('click', () => {
+            document.getElementsByClassName('menu-container')[0].classList.remove('visible')
+            $.getJSON("cards.json", (json) => {
+                console.log(json[menuItem.classList[1]])
+                initCards(json[menuItem.classList[1]])
+                cards.forEach(card => {
+                    card.addEventListener('click', () => {
+                        game.flipCard(card);
+                    });
+                });
+            })
+            game.startGame();
         });
-    })
+    });
+
+
+
 }
+
 
 function initCards(cardArray) {
     cardArray.forEach(card => {
@@ -191,17 +199,17 @@ function initCards(cardArray) {
         let card_back = document.createElement("div")
         card_back.classList.add("card-back", "card-face")
 
-        let back_image=document.createElement("img")
-        back_image.src="Assets/Images/CardBackend.png"
+        let back_image = document.createElement("img")
+        back_image.src = "Assets/Images/CardBackend.png"
         back_image.classList.add("spider")
 
         let card_front = document.createElement("div")
         card_front.classList.add("card-front", "card-face")
-        card_front.setAttribute('type',card.type)
+        card_front.setAttribute('type', card.type)
 
         let text = document.createElement("p")
         text.classList.add("card-value")
-        text.innerHTML=card.text
+        text.innerHTML = card.text
 
         card_back.appendChild(back_image)
         card_front.appendChild(text)

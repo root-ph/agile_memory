@@ -1,6 +1,6 @@
 .menu-container{
     text-align: center;
-
+    display: none;
 }
 
 .vertical-menu {
@@ -24,4 +24,9 @@
 .vertical-menu a.active {
     background-color: #04AA6D; /* Add a green color to the "active/current" link */
     color: white;
+}
+
+.menu-container.visible{
+    display: flex;
+
 }
