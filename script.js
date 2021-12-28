@@ -177,7 +177,7 @@ function ready() {
 
                 initCards(json[menuItem.classList[1]])
                 document.getElementsByClassName('back-button')[0].classList.add('visible')
-                document.getElementsByClassName('game-info')[0].classList.add('visible')
+                document.getElementsByClassName('game-info-container')[0].classList.add('visible')
                 cards.forEach(card => {
                     card.addEventListener('click', () => {
                         game.flipCard(card);
