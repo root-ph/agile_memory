@@ -1,88 +1,251 @@
 {
-  "easy": [
+  "Timeboxed": [
     {
       "id": 1,
-      "text": "Agile Release Train",
-      "type": "art"
+      "text": "Timebox Sprint",
+      "type": "tb1"
     },
     {
       "id": 2,
-      "text": "Langfristig bestehendes Team-of-Agile-Teams, welches mit anderen Beteiligten inkrementell Lösungen entwickelt und bereitstellt",
-      "type": "art"
-    },
-    {
-      "id": 3,
-      "text": "Release Train Engineer",
-      "type": "rte"
-    },
-    {
-      "id": 4,
-      "text": "Coach für den Agile Release Train (ART), kümmert sich um die Prozesse, Events und die PI-Durchführung des ART",
-      "type": "rte"
-    }
-  ],
-  "medium": [
-    {
-      "id": 1,
-      "text": "CI-Pipeline",
-      "type": "cip"
-    },
-    {
-      "id": 2,
-      "text": "• Develop - Build - Test (End-to-End) - Stage/Deploy",
-      "type": "cip"
-    },
-    {
-      "id": 3,
-      "text": "Timebox eines Sprints",
-      "type": "tbs"
-    },
-    {
-      "id": 4,
       "text": "Best-Practice: 2 Wochen",
-      "type": "tbs"
-    },
-    {
-      "id": 5,
-      "text": "Timebox eines Programm Inkrements",
-      "type": "tbp"
-    },
-    {
-      "id": 6,
-      "text": "Best-Practice: 10 Wochen",
-      "type": "tbp"
-    }
-  ],
-  "hard": [
-    {
-      "id": 1,
-      "text": "Prinzip der ökonomischen Sichtweise",
-      "type": "pdos"
-    },
-    {
-      "id": 2,
-      "text": "optimale Aufgabenabfolge Ökonomische Kompromisse Knappes Budget sinnvoll nutzen",
-      "type": "pdos"
+      "type": "tb1"
     },
     {
       "id": 3,
-      "text": "SAFe Core Values",
-      "type": "scv"
+      "text": "Timebox  Programm Inkrement",
+      "type": "tb2"
     },
     {
       "id": 4,
-      "text": "Ausrichtung, Built-in Quality, Transparenz und Programmausführung",
-      "type": "scv"
+      "text": "Best-Practice: 10 Wochen",
+      "type": "tb2"
     },
     {
       "id": 5,
-      "text": "SAFe Mindset",
-      "type": "sfm"
+      "text": "Timebox  Sprint Planning Meeting",
+      "type": "tb3"
     },
     {
       "id": 6,
-      "text": "Beste Qualität und Mehrwert für Mensch und Gesellschaft",
-      "type": "sfm"
+      "text": "Weniger als 8 Stunden",
+      "type": "tb3"
+    },
+    {
+      "id": 7,
+      "text": "Timebox Daily Scrum",
+      "type": "tb4"
+    },
+    {
+      "id": 8,
+      "text": "15 Minuten",
+      "type": "tb4"
+    },
+    {
+      "id": 9,
+      "text": "Timebox Sprint Review Meeting",
+      "type": "tb4"
+    },
+    {
+      "id": 10,
+      "text": "Maximal 4 Stunden",
+      "type": "tb4"
+    },
+    {
+      "id": 11,
+      "text": "Timebox Sprint Retrospective",
+      "type": "tb5"
+    },
+    {
+      "id": 12,
+      "text": "Maximal 3 Stunden",
+      "type": "tb5"
     }
+  ],
+  "Skalierungsebenen": [
+    {
+      "id": 1,
+      "text": "Essential SAFe",
+      "type": "ske1"
+    },
+    {
+      "id": 2,
+      "text": "beinhaltet essentielle Bauteile, um mehrere Teams auf ein gemeinsames Ziel zu synchronisieren",
+      "type": "ske1"
+    },
+    {
+      "id": 3,
+      "text": "Large Solution SAFe",
+      "type": "ske2"
+    },
+    {
+      "id": 4,
+      "text": "Richtet sich an Unternehmen, die sehr große und komplexe Produkte herstellen",
+      "type": "ske2"
+    },
+    {
+      "id": 5,
+      "text": "Portfolio SAFe",
+      "type": "ske3"
+    },
+    {
+      "id": 6,
+      "text": "stimmt die Strategie mit der Umsetzung ab und organisiert die Lösungsentwicklung rund um den Wertfluss durch einen oder mehrere Wertströme",
+      "type": "ske3"
+    },
+    {
+      "id": 7,
+      "text": "Full SAFe",
+      "type": "ske4"
+    },
+    {
+      "id": 8,
+      "text": "kombiniert Large Solution und Portfolio zur maximalen Ausbaustufe",
+      "type": "ske4"
+    }
+  ],
+  "Akteure": [
+    {
+      "id": 1,
+      "text": "Release Train Engineer",
+      "type": "ak1"
+    },
+    {
+      "id": 2,
+      "text": "Coach für den Agile Release Train (ART), kümmert sich um die Prozesse, Events und die PI-Durchführung des ART.",
+      "type": "ak1"
+    },
+    {
+      "id": 3,
+      "text": "SAFe Team",
+      "type": "ak2"
+    },
+    {
+      "id": 4,
+      "text": "Teams bestehend aus drei bis neun Personen, die alle Rollen abdecken, welche in einer Iteration erforderlich sind.",
+      "type": "ak2"
+    },
+    {
+      "id": 5,
+      "text": "SCRUM Team",
+      "type": "ak3"
+    },
+    {
+      "id": 6,
+      "text": "Teams bestehend aus maximal 10 Personen, die alle Rollen abdecken, welche in einer Iteration erforderlich sind.",
+      "type": "ak3"
+    },
+    {
+      "id": 7,
+      "text": "Scrum Master",
+      "type": "ak4"
+    },
+    {
+      "id": 8,
+      "text": "Coach eines Agile Teams.\n Schult Teams in Scrum und sorgt für die Beseitigung von Hindernissen",
+      "type": "ak4"
+    },
+    {
+      "id": 9,
+      "text": "Business Owner",
+      "type": "ak5"
+    },
+    {
+      "id": 10,
+      "text": "behält den Blick auf ROI und Wertmaximierung sowie der Ausbalancierung von Kosten und Nutzen in der Produktentwicklung auf Systemebene.",
+      "type": "ak5"
+    },
+    {
+      "id": 11,
+      "text": "Product Owner",
+      "type": "ak6"
+    },
+    {
+      "id": 12,
+      "text": "ist ergebnisverantwortlich für die Maximierung des Wertes des Produkts,\n der sich aus der Arbeit des Scrum Teams ergibt. Wie dies geschieht, kann je nach Organisation, Scrum Team\n und Individuum sehr unterschiedlich sein",
+      "type": "ak6"
+    }
+  ],
+  "Mixed Categories": [
+    {
+      "id": 1,
+      "text": "Essential SAFe",
+      "type": "ske1"
+    },
+    {
+      "id": 2,
+      "text": "beinhaltet essentielle Bauteile, um mehrere Teams auf ein gemeinsames Ziel zu synchronisieren",
+      "type": "ske1"
+    },
+    {
+      "id": 3,
+      "text": "SCRUM Team",
+      "type": "ak3"
+    },
+    {
+      "id": 4,
+      "text": "Teams bestehend aus maximal 10 Personen, die alle Rollen abdecken, welche in einer Iteration erforderlich sind.",
+      "type": "ak3"
+    },
+    {
+      "id": 5,
+      "text": "Business Owner",
+      "type": "ak5"
+    },
+    {
+      "id": 6,
+      "text": "behält den Blick auf ROI und Wertmaximierung sowie der Ausbalancierung von Kosten und Nutzen in der Produktentwicklung auf Systemebene.",
+      "type": "ak5"
+    },
+    {
+      "id": 7,
+      "text": "Portfolio SAFe",
+      "type": "ske3"
+    },
+    {
+      "id": 8,
+      "text": "stimmt die Strategie mit der Umsetzung ab und organisiert die Lösungsentwicklung rund um den Wertfluss durch einen oder mehrere Wertströme",
+      "type": "ske3"
+    },
+    {
+      "id": 9,
+      "text": "Release Train Engineer",
+      "type": "ak1"
+    },
+    {
+      "id": 10,
+      "text": "Coach für den Agile Release Train (ART), kümmert sich um die Prozesse, Events und die PI-Durchführung des ART.",
+      "type": "ak1"
+    },
+    {
+      "id": 11,
+      "text": "Full SAFe",
+      "type": "ske4"
+    },
+    {
+      "id": 12,
+      "text": "kombiniert Large Solution und Portfolio zur maximalen Ausbaustufe",
+      "type": "ske4"
+    },
+    {
+      "id": 13,
+      "text": "Timebox Sprint Review Meeting",
+      "type": "tb4"
+    },
+    {
+      "id": 14,
+      "text": "Maximal 4 Stunden",
+      "type": "tb4"
+    },
+    {
+      "id": 15,
+      "text": "Timebox Sprint Retrospective",
+      "type": "tb5"
+    },
+    {
+      "id": 16,
+      "text": "Maximal 3 Stunden",
+      "type": "tb5"
+    }
+
   ]
 }
