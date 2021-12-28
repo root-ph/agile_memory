@@ -141,7 +141,7 @@
     },
     {
       "id": 8,
-      "text": "Coach eines Agile Teams.\n Schult Teams in Scrum und sorgt für die Beseitigung von Hindernissen",
+      "text": "Coach eines Agile Teams. Schult Teams in Scrum und sorgt für die Beseitigung von Hindernissen",
       "type": "ak4"
     },
     {
@@ -161,7 +161,7 @@
     },
     {
       "id": 12,
-      "text": "ist ergebnisverantwortlich für die Maximierung des Wertes des Produkts,\n der sich aus der Arbeit des Scrum Teams ergibt. Wie dies geschieht, kann je nach Organisation, Scrum Team\n und Individuum sehr unterschiedlich sein",
+      "text": "ist ergebnisverantwortlich für die Maximierung des Wertes des Produkts, der sich aus der Arbeit des Scrum Teams ergibt. Wie dies geschieht, kann je nach Organisation, Scrum Team und Individuum sehr unterschiedlich sein",
       "type": "ak6"
     }
   ],
@@ -246,6 +246,5 @@
       "text": "Maximal 3 Stunden",
       "type": "tb5"
     }
-
   ]
 }
