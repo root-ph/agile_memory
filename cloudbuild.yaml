@@ -32,7 +32,7 @@ steps:
   # [START cloudbuild_python_deploy_yaml]
   # Deploy to Cloud Run
   - name: google/cloud-sdk
-    args: [ 'gcloud', 'run', 'deploy', 'agile_memory',  '--image=us-central1-docker.pkg.dev/$PROJECT_ID/$REPO_NAME/myimage:$SHORT_SHA', '--region', 'us-central1', '--platform', 'managed', '--allow-unauthenticated' ]
+    args: [ 'gcloud', 'run', 'deploy', 'agile-memory',  '--image=us-central1-docker.pkg.dev/$PROJECT_ID/$REPO_NAME/myimage:$SHORT_SHA', '--region', 'us-central1', '--platform', 'managed', '--allow-unauthenticated' ]
   # [END cloudbuild_python_deploy_yaml]
 
 
