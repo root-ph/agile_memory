@@ -11,8 +11,11 @@ html {
 
 body {
   margin: 0;
-  background: radial-gradient(#0deb0d, #ffffff);
+  background-image: url("../Images/pexels-frans-van-heerden-624015.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 
 .page-title {
   color: #b82a2a;
@@ -81,8 +84,8 @@ body {
 }
 
 .card-back {
-  background-color: #0deb0d;
-  border-color: #0deb0d;
+  background-color: #000000;
+  border-color: #0000000;
   transform: rotateY(0); 
 }
 
@@ -164,7 +167,7 @@ body {
 }
 
 .overlay-text-small {
-  font-size: .3em;
+  font-size: .4em;
 }
 
 .overlay-text.visible {
