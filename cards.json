@@ -165,7 +165,7 @@
       "type": "ak6"
     }
   ],
-  "SAFe Mindset": [
+  "SAFeMindset": [
     {
       "id": 1,
       "text": "Respekt für Menschen und Kultur",
@@ -227,7 +227,7 @@
       "type": "smind6"
     }
   ],
-  "10 SAFe Prinzipien": [
+  "10SAFePrinzipien": [
     {
       "id": 1,
       "text": "Prinzip 1: Ökonomische Sichtweise",
@@ -329,7 +329,7 @@
       "type": "sprinz10"
     }
   ],
-  "SAFe Begriffe 101": [
+  "SAFeBegriffe101": [
     {
       "id": 1,
       "text": "Agile Release Train (ART)",
