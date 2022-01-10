@@ -165,7 +165,213 @@
       "type": "ak6"
     }
   ],
-  "MixedCategories": [
+  "SAFe Mindset": [
+    {
+      "id": 1,
+      "text": "Respekt für Menschen und Kultur",
+      "type": "smind1"
+    },
+    {
+      "id": 2,
+      "text": "Ziel ist der Aufbau langfristiger Partnerschaften und das Entwickeln einer Kultur durch Systemveränderung.",
+      "type": "smind1"
+    },
+    {
+      "id": 3,
+      "text": "Flow",
+      "type": "smind2"
+    },
+    {
+      "id": 4,
+      "text": "Verzögerungen durch Start-Stop-Start von Projekten wird vermieden und es findet eine nachhaltige kontinuierliche Verbesserung statt.",
+      "type": "smind2"
+    },
+    {
+      "id": 5,
+      "text": "Innovation",
+      "type": "smind3"
+    },
+    {
+      "id": 6,
+      "text": "Zeit und Raum für Kreativität wird geschaffen. Verändern ohne Gnade oder Schuldgefühle",
+      "type": "smind3"
+    },
+    {
+      "id": 7,
+      "text": "Stetige Verbesserung",
+      "type": "smind4"
+    },
+    {
+      "id": 8,
+      "text": "Optimierung der gesamten Organisation, nicht nur einzelne Teile.Anwendung von Lean-Tools und Techniken um Ineffizienzen zu erkennen und zu beheben.",
+      "type": "smind4"
+    },
+    {
+      "id": 9,
+      "text": "Mehrwert",
+      "type": "smind5"
+    },
+    {
+      "id": 10,
+      "text": "Erzielung der kürzesten nachhaltigen 'Lead Time'. Beste Qualität und Mehrwert für Mensch und Gesellschaft führt zu hoher Arbeitsmoral, Sicherheit und Kundenzufriedenheit.",
+      "type": "smind5"
+    },
+    {
+      "id": 11,
+      "text": "Führung",
+      "type": "smind6"
+    },
+    {
+      "id": 12,
+      "text": "Entscheidungsfindung wird dezentralisiert, lebenslanges Lernen hervorgehoben und der Wandel angeführt.",
+      "type": "smind6"
+    }
+  ],
+  "10 SAFe Prinzipien": [
+    {
+      "id": 1,
+      "text": "Prinzip 1: Ökonomische Sichtweise",
+      "type": "sprinz1"
+    },
+    {
+      "id": 2,
+      "text": "Beste Werte & Qualität für Menschen und Gesellschaft, in kürzester nachhaltiger Vorlaufzeit, schaffen.",
+      "type": "sprinz1"
+    },
+    {
+      "id": 3,
+      "text": "Prinzip 2: Systemdenkweise",
+      "type": "sprinz2"
+    },
+    {
+      "id": 4,
+      "text": "Verständnis des übergeordneten Systems hilft bei der Verbesserung jeder Komponente.",
+      "type": "sprinz2"
+    },
+    {
+      "id": 5,
+      "text": "Prinzip 3: Variabilität",
+      "type": "sprinz3"
+    },
+    {
+      "id": 6,
+      "text": "Mehrere Anforderungen und Designoptionen über lange Zeit beibehalten. Später empirische Daten zu Auswahl nutzen.",
+      "type": "sprinz3"
+    },
+    {
+      "id": 7,
+      "text": "Prinzip 4: inkrementelles Bauen mit schnellen Lernzyklen",
+      "type": "sprinz4"
+    },
+    {
+      "id": 8,
+      "text": "Schrittweises Erstellen der Lösungen in kurzen Zyklen sodass auswertbare Inkrements entstehen.",
+      "type": "sprinz4"
+    },
+    {
+      "id": 9,
+      "text": "Prinzip 5: Basis-Meilensteine ",
+      "type": "sprinz5"
+    },
+    {
+      "id": 10,
+      "text": "Objektive Meilensteine zur regelmäßigen Bewertung während des gesamten Entwicklungslebenslauf.",
+      "type": "sprinz5"
+    },
+    {
+      "id": 11,
+      "text": "Prinzip 6: Visualisierung und Begrenzung von Arbeitsaufwands (WIP); Reduzierung der Batchgrößen und Verwaltung der Wartschlangenlänge",
+      "type": "sprinz6"
+    },
+    {
+      "id": 12,
+      "text": "WIP: erhöht Durchsatz und reduziert Nachfrage auf Kapazität Batchgrößen: schneller Ablauf Warteschlangenlänge: Reduzierung der Wartezeit.",
+      "type": "sprinz6"
+    },
+    {
+      "id": 13,
+      "text": "Prinzip 7: Routinierte Abläufe & Bereichsübergreifende Planung",
+      "type": "sprinz7"
+    },
+    {
+      "id": 14,
+      "text": "Feste Rhythmen für alle Bereiche verringern Komplexität, Unsicherheit und fördern Qualität und Zusammenarbeit.",
+      "type": "sprinz7"
+    },
+    {
+      "id": 15,
+      "text": "Prinzip 8: Förderung der intrinsischen Motivation von Wissensarbeitern",
+      "type": "sprinz8"
+    },
+    {
+      "id": 16,
+      "text": "Gewährleistung von Autonomie, Minimierung von Einschränkungen, Umfeld der gegenseitige Einflussnahme und Verständnis für die unterschiedlichen Gehälter zum besseren Engagement der Mitarbeiter.",
+      "type": "sprinz8"
+    },
+    {
+      "id": 17,
+      "text": "Prinzip 9: Dezentrale Entscheidungsfindung",
+      "type": "sprinz9"
+    },
+    {
+      "id": 18,
+      "text": "Eigenständige Entscheidungsfindung des Entwicklungsteams vereinzelte ökonomische Entscheidungen des Management.",
+      "type": "sprinz9"
+    },
+    {
+      "id": 17,
+      "text": "Prinzip 10: Wertorientierte Organisation",
+      "type": "sprinz10"
+    },
+    {
+      "id": 18,
+      "text": "Rasante Entwicklung der Wirtschaft erfordert organisiertes, wertorientiertes Arbeit entlang der Hierarchie.",
+      "type": "sprinz10"
+    }
+  ],
+  "SAFe Begriffe 101": [
+    {
+      "id": 1,
+      "text": "Agile Release Train (ART)",
+      "type": "sbeg1"
+    },
+    {
+      "id": 2,
+      "text": "Langfristig bestehendes Team-of-Agile-Teams, welches mit anderen Beteiligten inkrementell Lösungen entwickelt und bereitstellt.",
+      "type": "sbeg1"
+    },
+    {
+      "id": 3,
+      "text": "Safe Core Values",
+      "type": "sbeg2"
+    },
+    {
+      "id": 4,
+      "text": "Ausrichtung, Built-in Quality, Transparenz und Programmausführung.",
+      "type": "sbeg2"
+    },
+    {
+      "id": 5,
+      "text": "Built-In-Quality",
+      "type": "sbeg3"
+    },
+    {
+      "id": 6,
+      "text": "Jeder Bestandteil muss die vorgegebenen Qualitätsstandards erfüllen.",
+      "type": "sbeg3"
+    },
+    {
+      "id": 7,
+      "text": "CI-Pipeline",
+      "type": "sbeg4"
+    },
+    {
+      "id": 8,
+      "text": "Continuous Integration, Merkmale werden ständig entwickelt und integriert.",
+      "type": "sbeg4"
+    }
+  ],
+  "Mix": [
     {
       "id": 1,
       "text": "Essential SAFe",
@@ -178,23 +384,23 @@
     },
     {
       "id": 3,
-      "text": "SCRUM Team",
-      "type": "ak3"
+      "text": "Flow",
+      "type": "smind2"
     },
     {
       "id": 4,
-      "text": "Teams bestehend aus maximal 10 Personen, die alle Rollen abdecken, welche in einer Iteration erforderlich sind.",
-      "type": "ak3"
+      "text": "Verzögerungen durch Start-Stop-Start von Projekten wird vermieden und es findet eine nachhaltige kontinuierliche Verbesserung statt.",
+      "type": "smind2"
     },
     {
       "id": 5,
-      "text": "Business Owner",
-      "type": "ak5"
+      "text": "CI-Pipeline",
+      "type": "sbeg4"
     },
     {
       "id": 6,
-      "text": "behält den Blick auf ROI und Wertmaximierung sowie der Ausbalancierung von Kosten und Nutzen in der Produktentwicklung auf Systemebene.",
-      "type": "ak5"
+      "text": "Continuous Integration, Merkmale werden ständig entwickelt und integriert.",
+      "type": "sbeg4"
     },
     {
       "id": 7,
@@ -203,7 +409,7 @@
     },
     {
       "id": 8,
-      "text": "stimmt die Strategie mit der Umsetzung ab und organisiert die Lösungsentwicklung rund um den Wertfluss durch einen oder mehrere Wertströme",
+      "text": "Stimmt die Strategie mit der Umsetzung ab und organisiert die Lösungsentwicklung rund um den Wertfluss durch einen oder mehrere Wertströme",
       "type": "ske3"
     },
     {
@@ -238,13 +444,33 @@
     },
     {
       "id": 15,
-      "text": "Timebox Sprint Retrospective",
-      "type": "tb5"
+      "text": "Prinzip 9: Dezentrale Entscheidungsfindung",
+      "type": "sprinz9"
     },
     {
       "id": 16,
-      "text": "Maximal 3 Stunden",
-      "type": "tb5"
+      "text": "Eigenständige Entscheidungsfindung des Entwicklungsteams vereinzelte ökonomische Entscheidungen des Management.",
+      "type": "sprinz9"
+    },
+    {
+      "id": 17,
+      "text": "Prinzip 3: Variabilität",
+      "type": "sprinz3"
+    },
+    {
+      "id": 18,
+      "text": "Mehrere Anforderungen und Designoptionen über lange Zeit beibehalten. Später empirische Daten zu Auswahl nutzen.",
+      "type": "sprinz3"
+    },
+    {
+      "id": 19,
+      "text": "Safe Core Values",
+      "type": "sbeg2"
+    },
+    {
+      "id": 20,
+      "text": "Ausrichtung, Built-in Quality, Transparenz und Programmausführung.",
+      "type": "sbeg2"
     }
   ]
 }
