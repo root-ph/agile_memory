@@ -11,18 +11,18 @@ html {
 
 body {
   margin: 0;
-  background-image: url("../Images/pexels-frans-van-heerden-624015.jpg");
+  background-image: url("Assets/Images/pexels-stein-egil-liland-3408744.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 
 .page-title {
-  color: #b82a2a;
+  color: #ff8c00;
   font-family: serif;
-  font-weight: normal;
+  font-weight: height;
   text-align: center;
-  font-size: 6em;
+  font-size: 7em;
 }
 
 .game-info-container {
@@ -36,8 +36,8 @@ body {
 }
 
 .game-info {
-  color: #b82a2a;
-  font-size: 4em;
+  color: #ff8c00;
+  font-size: 5em;
 }
 
 .game-container {
@@ -145,9 +145,10 @@ body {
 }
 
 .card-front {
-  background-color: #ffffff;
+  background-color:#ffffff;
   border-color: #333;
   transform: rotateY(180deg);
+  background-image:url("Assets/Images/Card_Front.png");
 }
 
 .overlay-text {
