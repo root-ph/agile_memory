@@ -80,7 +80,7 @@ body {
 }
 
 .card.matched .card-front .card-value {
-  animation: dance 1s linear infinite 500ms;
+ // animation: dance 1s linear infinite 500ms;
 }
 
 .card-back {
