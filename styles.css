@@ -20,7 +20,7 @@ body {
 .page-title {
   color: #ff8c00;
   font-family: serif;
-  font-weight: height;
+
   text-align: center;
   font-size: 7em;
 }
@@ -85,7 +85,7 @@ body {
 
 .card-back {
   background-color: #000000;
-  border-color: #0000000;
+  border-color: #000000;
   transform: rotateY(0); 
 }
 
@@ -185,7 +185,7 @@ body {
   display: none; /* Make the links appear below each other */
   padding: 12px; /* Add some padding */
   text-decoration: none; /* Remove underline from links */
-  margin:0 auto
+  margin:10px auto
 }
 
 .back-button.visible{
@@ -230,4 +230,19 @@ body {
     flex-direction: column;
     align-items: center;
   }
+}
+
+.solutionContainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.solutionContainer > .card{
+  flex: 50%; /* or - flex: 0 50% - or - flex-basis: 50% - */
+  box-shadow: 0 0 0 1px black;
+  margin-bottom: 10px;
+}
+solution-box{
+  width: 612px;
+  margin: 0 auto
 }

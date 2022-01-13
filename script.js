@@ -34,7 +34,6 @@ class MixOrMatch {
 
     }
 
-
     startGame() {
         this.totalClicks = 0;
         this.timeRemaining = this.totalTime;
@@ -42,8 +41,6 @@ class MixOrMatch {
         this.matchedCards = [];
         this.busy = true;
 
-
-        console.log(this.cardsArray)
         setTimeout(() => {
 
             this.shuffleCards(this.cardsArray);
@@ -125,7 +122,7 @@ class MixOrMatch {
             card1.classList.remove('visible');
             card2.classList.remove('visible');
             this.busy = false;
-        }, 1000000);
+        }, 1000);
     }
 
     shuffleCards(cardsArray) { // Fisher-Yates Shuffle Algorithm.
@@ -177,6 +174,7 @@ function ready() {
 
                 initCards(json[menuItem.classList[1]])
                 document.getElementsByClassName('back-button')[0].classList.add('visible')
+                document.getElementsByClassName('back-button')[1].classList.add('visible')
                 document.getElementsByClassName('game-info-container')[0].classList.add('visible')
                 cards.forEach(card => {
                     card.addEventListener('click', () => {
@@ -190,9 +188,30 @@ function ready() {
 }
 
 
+function showSolutions(){
 
+    let solutionBox = document.createElement("solution-box")
+    solutionBox.classList.add('solutionContainer')
+
+    let el = document.getElementById("game-container");
+    let elClone = el.cloneNode(true);
+    el.parentNode.replaceChild(elClone, el);
+
+    cards = Array.from(document.getElementsByClassName('card'));
+    cards.forEach(card => {
+        card.classList.add('visible')
+        card.style.order = null;
+        solutionBox.appendChild(card)
+    });
+
+
+    document.getElementsByClassName('game-info-container')[0].classList.remove('visible')
+    document.getElementById("game-container").classList.remove('game-container')
+    document.getElementById("game-container").appendChild(solutionBox)
+}
 
 function initCards(cardArray) {
+    console.log(cardArray)
     cardArray.forEach(card => {
         let cardBox = document.createElement("div")
         cardBox.classList.add("card")

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,14 +11,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <title>Mix-Or-Match</title>
 </head>
-<body>
 
+<body>
 <h1 class="page-title">Mix-Or-Match</h1>
 
 <div id="game-over-text" class="overlay-text">
     GAME OVER
     <span class="overlay-text-small">Click to Restart</span>
 </div>
+
 <div id="victory-text" class="overlay-text">
     VICTORY
     <span class="overlay-text-small">Click to Restart</span>
@@ -34,6 +36,7 @@
         <a class="menuItem Mix">Mix</a>
     </div>
 </div>
+
 <div id="game-container" class="game-container">
     <div class="game-info-container">
         <div class="game-info">
@@ -47,6 +50,7 @@
 
 <div>
     <div class="back-button" onclick="location.reload()">Zurück</div>
+    <div class="back-button" onclick="showSolutions()">Lösungen</div>
 </div>
 
 </body>
