@@ -122,7 +122,7 @@ class MixOrMatch {
             card1.classList.remove('visible');
             card2.classList.remove('visible');
             this.busy = false;
-        }, 3000);
+        }, 2500);
     }
 
     shuffleCards(cardsArray) { // Fisher-Yates Shuffle Algorithm.
