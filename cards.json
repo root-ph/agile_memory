@@ -43,22 +43,22 @@
     {
       "id": 9,
       "text": "Timebox Sprint Review Meeting",
-      "type": "tb4"
+      "type": "tb5"
     },
     {
       "id": 10,
       "text": "Maximal 4 Stunden",
-      "type": "tb4"
+      "type": "tb5"
     },
     {
       "id": 11,
       "text": "Timebox Sprint Retrospective",
-      "type": "tb5"
+      "type": "tb6"
     },
     {
       "id": 12,
       "text": "Maximal 3 Stunden",
-      "type": "tb5"
+      "type": "tb6"
     }
   ],
 

@@ -197,7 +197,7 @@ body {
 }
 
 
-
+/*
 @keyframes dance {
   0%, 100% {
     transform: rotate(0)
@@ -208,7 +208,7 @@ body {
   75% {
     transform: rotate(30deg)
   }
-}
+}*/
 
 @keyframes overlay-grow {
   from {

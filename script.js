@@ -59,7 +59,7 @@ class MixOrMatch {
             this.timer.innerText = this.timeRemaining;
             if (this.timeRemaining === 0)
                 this.gameOver();
-        }, 1000);
+        }, 2000);
     }
 
     gameOver() {
@@ -122,7 +122,7 @@ class MixOrMatch {
             card1.classList.remove('visible');
             card2.classList.remove('visible');
             this.busy = false;
-        }, 1000);
+        }, 3000);
     }
 
     shuffleCards(cardsArray) { // Fisher-Yates Shuffle Algorithm.
@@ -158,7 +158,7 @@ function ready() {
     let overlays = Array.from(document.getElementsByClassName('overlay-text'));
     let menuItems = Array.from(document.getElementsByClassName('menuItem'))
     cards = Array.from(document.getElementsByClassName('card'));
-    let game = new MixOrMatch(100, cards);
+    let game = new MixOrMatch(200, cards);
 
     overlays.forEach(overlay => {
         overlay.addEventListener('click', () => {
