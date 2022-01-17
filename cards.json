@@ -70,7 +70,7 @@
     },
     {
       "id": 2,
-      "text": "beinhaltet essentielle Bauteile, um mehrere Teams auf ein gemeinsames Ziel zu synchronisieren",
+      "text": "Beinhaltet essentielle Bauteile, um mehrere Teams auf ein gemeinsames Ziel zu synchronisieren",
       "type": "ske1"
     },
     {
@@ -90,7 +90,7 @@
     },
     {
       "id": 6,
-      "text": "stimmt die Strategie mit der Umsetzung ab und organisiert die Lösungsentwicklung rund um den Wertfluss durch einen oder mehrere Wertströme",
+      "text": "Stimmt die Strategie mit der Umsetzung ab und organisiert die Lösungsentwicklung rund um den Wertfluss durch einen oder mehrere Wertströme",
       "type": "ske3"
     },
     {
@@ -100,7 +100,7 @@
     },
     {
       "id": 8,
-      "text": "kombiniert Large Solution und Portfolio zur maximalen Ausbaustufe",
+      "text": "Kombiniert Large Solution und Portfolio zur maximalen Ausbaustufe",
       "type": "ske4"
     }
   ],
@@ -152,7 +152,7 @@
     },
     {
       "id": 10,
-      "text": "behält den Blick auf ROI und Wertmaximierung sowie der Ausbalancierung von Kosten und Nutzen in der Produktentwicklung auf Systemebene.",
+      "text": "Behält den Blick auf ROI und Wertmaximierung sowie der Ausbalancierung von Kosten und Nutzen in der Produktentwicklung auf Systemebene.",
       "type": "ak5"
     },
     {
@@ -162,7 +162,7 @@
     },
     {
       "id": 12,
-      "text": "ist ergebnisverantwortlich für die Maximierung des Wertes des Produkts, der sich aus der Arbeit des Scrum Teams ergibt. Wie dies geschieht, kann je nach Organisation, Scrum Team und Individuum sehr unterschiedlich sein",
+      "text": "Ist ergebnisverantwortlich für die Maximierung des Wertes des Produkts, der sich aus der Arbeit des Scrum Teams ergibt. Wie dies geschieht, kann je nach Organisation, Scrum Team und Individuum sehr unterschiedlich sein",
       "type": "ak6"
     }
   ],
@@ -261,7 +261,7 @@
     },
     {
       "id": 7,
-      "text": "Prinzip 4: inkrementelles Bauen mit schnellen Lernzyklen",
+      "text": "Prinzip 4: Inkrementelles Bauen mit schnellen Lernzyklen",
       "type": "sprinz4"
     },
     {
@@ -286,7 +286,7 @@
     },
     {
       "id": 12,
-      "text": "WIP: erhöht Durchsatz und reduziert Nachfrage auf Kapazität Batchgrößen: schneller Ablauf Warteschlangenlänge: Reduzierung der Wartezeit.",
+      "text": "WIP: Erhöht Durchsatz und reduziert Nachfrage auf Kapazität Batchgrößen: schneller Ablauf Warteschlangenlänge: Reduzierung der Wartezeit.",
       "type": "sprinz6"
     },
     {
@@ -375,43 +375,43 @@
   "Mix": [
     {
       "id": 1,
+      "text": "Timebox Sprint",
+      "type": "tb1"
+    },
+    {
+      "id": 2,
+      "text": "Best-Practice: 2 Wochen",
+      "type": "tb1"
+    },
+    {
+      "id": 3,
+      "text": "Timebox  Programm Inkrement",
+      "type": "tb2"
+    },
+    {
+      "id": 4,
+      "text": "Best-Practice: 10 Wochen",
+      "type": "tb2"
+    },
+    {
+      "id": 5,
       "text": "Essential SAFe",
       "type": "ske1"
     },
     {
-      "id": 2,
-      "text": "beinhaltet essentielle Bauteile, um mehrere Teams auf ein gemeinsames Ziel zu synchronisieren",
+      "id": 6,
+      "text": "Beinhaltet essentielle Bauteile, um mehrere Teams auf ein gemeinsames Ziel zu synchronisieren",
       "type": "ske1"
     },
     {
-      "id": 3,
-      "text": "Flow",
-      "type": "smind2"
-    },
-    {
-      "id": 4,
-      "text": "Verzögerungen durch Start-Stop-Start von Projekten wird vermieden und es findet eine nachhaltige kontinuierliche Verbesserung statt.",
-      "type": "smind2"
-    },
-    {
-      "id": 5,
-      "text": "CI-Pipeline",
-      "type": "sbeg4"
-    },
-    {
-      "id": 6,
-      "text": "Continuous Integration, Merkmale werden ständig entwickelt und integriert.",
-      "type": "sbeg4"
-    },
-    {
       "id": 7,
-      "text": "Portfolio SAFe",
-      "type": "ske3"
+      "text": "Large Solution SAFe",
+      "type": "ske2"
     },
     {
       "id": 8,
-      "text": "Stimmt die Strategie mit der Umsetzung ab und organisiert die Lösungsentwicklung rund um den Wertfluss durch einen oder mehrere Wertströme",
-      "type": "ske3"
+      "text": "Richtet sich an Unternehmen, die sehr große und komplexe Produkte herstellen",
+      "type": "ske2"
     },
     {
       "id": 9,
@@ -425,33 +425,32 @@
     },
     {
       "id": 11,
-      "text": "Full SAFe",
-      "type": "ske4"
+      "text": "Business Owner",
+      "type": "ak5"
     },
     {
       "id": 12,
-      "text": "kombiniert Large Solution und Portfolio zur maximalen Ausbaustufe",
-      "type": "ske4"
-    },
-    {
+      "text": "Behält den Blick auf ROI und Wertmaximierung sowie der Ausbalancierung von Kosten und Nutzen in der Produktentwicklung auf Systemebene.",
+      "type": "ak5"
+    }, {
       "id": 13,
-      "text": "Timebox Sprint Review Meeting",
-      "type": "tb4"
+      "text": "Respekt für Menschen und Kultur",
+      "type": "smind1"
     },
     {
       "id": 14,
-      "text": "Maximal 4 Stunden",
-      "type": "tb4"
+      "text": "Ziel ist der Aufbau langfristiger Partnerschaften und das Entwickeln einer Kultur durch Systemveränderung.",
+      "type": "smind1"
     },
     {
       "id": 15,
-      "text": "Prinzip 9: Dezentrale Entscheidungsfindung",
-      "type": "sprinz9"
+      "text": "Flow",
+      "type": "smind2"
     },
     {
       "id": 16,
-      "text": "Eigenständige Entscheidungsfindung des Entwicklungsteams vereinzelte ökonomische Entscheidungen des Management.",
-      "type": "sprinz9"
+      "text": "Verzögerungen durch Start-Stop-Start von Projekten wird vermieden und es findet eine nachhaltige kontinuierliche Verbesserung statt.",
+      "type": "smind2"
     },
     {
       "id": 17,
@@ -465,13 +464,33 @@
     },
     {
       "id": 19,
-      "text": "Safe Core Values",
-      "type": "sbeg2"
+      "text": "Prinzip 7: Routinierte Abläufe & Bereichsübergreifende Planung",
+      "type": "sprinz7"
     },
     {
       "id": 20,
-      "text": "Ausrichtung, Built-in Quality, Transparenz und Programmausführung.",
-      "type": "sbeg2"
+      "text": "Feste Rhythmen für alle Bereiche verringern Komplexität, Unsicherheit und fördern Qualität und Zusammenarbeit.",
+      "type": "sprinz7"
+    },
+    {
+      "id": 21,
+      "text": "Prinzip 9: Dezentrale Entscheidungsfindung",
+      "type": "sprinz9"
+    },
+    {
+      "id": 22,
+      "text": "Eigenständige Entscheidungsfindung des Entwicklungsteams vereinzelte ökonomische Entscheidungen des Management.",
+      "type": "sprinz9"
+    },
+    {
+      "id": 23,
+      "text": "Agile Release Train (ART)",
+      "type": "sbeg1"
+    },
+    {
+      "id": 24,
+      "text": "Langfristig bestehendes Team-of-Agile-Teams, welches mit anderen Beteiligten inkrementell Lösungen entwickelt und bereitstellt.",
+      "type": "sbeg1"
     }
   ]
 }

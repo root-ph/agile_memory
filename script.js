@@ -59,7 +59,7 @@ class MixOrMatch {
             this.timer.innerText = this.timeRemaining;
             if (this.timeRemaining === 0)
                 this.gameOver();
-        }, 2000);
+        }, 1000);
     }
 
     gameOver() {
@@ -158,7 +158,7 @@ function ready() {
     let overlays = Array.from(document.getElementsByClassName('overlay-text'));
     let menuItems = Array.from(document.getElementsByClassName('menuItem'))
     cards = Array.from(document.getElementsByClassName('card'));
-    let game = new MixOrMatch(200, cards);
+    let game = new MixOrMatch(100, cards);
 
     overlays.forEach(overlay => {
         overlay.addEventListener('click', () => {
